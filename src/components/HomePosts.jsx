@@ -2,10 +2,10 @@ import Img1 from "../assets/dummy.jpg"
 
 const HomePosts = () => {
   return (
-    <div className="w-full flex mt-8 space-x-2">
+    <div className="w-full flex mt-8 space-x-4">
        {/*  left */}
        <div className="w-[35%] h-[200px] flex justify-center items-center">
-        <img src={Img1}alt="" className=""/>
+        <img src={Img1}alt="" className="h-full w-full object-cover"/>
        </div>
       {/*  right */}
       <div className="flex flex-col w-[65%]">
